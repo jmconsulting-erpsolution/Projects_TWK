@@ -1,0 +1,566 @@
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\ApplicationInsights.config
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\WsNAVManager.dll.config
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\WsNAVManager.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\WsNAVManager.XmlSerializers.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\WsNAVManager.pdb
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Antlr3.Runtime.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\EntityFramework.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\EntityFramework.SqlServer.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.Web.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Newtonsoft.Json.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Net.Http.Formatting.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Cors.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Helpers.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Http.Cors.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Http.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Http.WebHost.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Mvc.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Optimization.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Razor.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.WebPages.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.WebPages.Razor.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\WebGrease.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\EntityFramework.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\EntityFramework.SqlServer.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Http.Cors.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Newtonsoft.Json.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Net.Http.Formatting.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Helpers.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Http.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Http.WebHost.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Mvc.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Optimization.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.Razor.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.WebPages.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Web.WebPages.Razor.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Antlr3.Runtime.pdb
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.AI.Web.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\EntityFramework.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Net.Http.Formatting.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.Helpers.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.Http.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.Http.WebHost.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.Mvc.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.Optimization.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.Razor.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.WebPages.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.WebPages.Deployment.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\System.Web.WebPages.Razor.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\WsNAVManager.csprojAssemblyReference.cache
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\WsNAVManager.csproj.CoreCompileInputs.cache
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\WsNAVManager.csproj.CopyComplete
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\WsNAVManager.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\WsNAVManager.pdb
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\WsNAVManager.XmlSerializers.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\SqlServerTypes\x64\msvcr100.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\SqlServerTypes\x86\msvcr100.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ReportViewer.Common.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ReportViewer.DataVisualization.DLL
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ReportViewer.Design.DLL
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ReportViewer.WebDesign.DLL
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.ReportViewer.WinForms.DLL
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.SqlServer.Types.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Spire.License.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Spire.Pdf.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\EnvDTE.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.Shell.Interop.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.Shell.Interop.8.0.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\EnvDTE80.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.mshtml.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\stdole.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.OLE.Interop.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.TextManager.Interop.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.ProjectAggregator.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.VSHelp.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.TextManager.Interop.8.0.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.TemplateWizardInterface.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.Shell.Interop.10.0.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\VSLangProj.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.Data.Services.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.Data.Core.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\VSLangProj80.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.Debugger.InteropA.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.ComponentModelHost.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.ManagedInterfaces.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.Shell.Interop.9.0.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.MSXML.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.Windows.Design.Interaction.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.Windows.Design.Extensibility.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\VSLangProj2.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.TextManager.Interop.10.0.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Spire.License.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Spire.Pdf.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.VisualStudio.TemplateWizardInterface.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.Windows.Design.Interaction.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.Windows.Design.Extensibility.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\EntityFramework.SqlServer.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\Microsoft.VisualStudio.Data.Services.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\it\Microsoft.VisualStudio.Data.Core.resources.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\RdlCompile.cache
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\obj\Release\RdlCompile.compiled
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Drawing.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Buffers.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Drawing.Common.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Memory.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Numerics.Vectors.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Text.Encodings.Web.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Text.Json.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.ValueTuple.dll
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Buffers.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Memory.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Numerics.Vectors.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Text.Encodings.Web.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Text.Json.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\mereu\Workspaces\Jobs Prelievi magazzino\server\WsNAVManager\bin\System.ValueTuple.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\obj\Release\WsNAVManager.csproj.AssemblyReference.cache
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\obj\Release\WsNAVManager.csproj.CoreCompileInputs.cache
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\obj\Release\WsNAVManager.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\obj\Release\WsNAVManager.pdb
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\WsNAVManager.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\ApplicationInsights.config
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\SqlServerTypes\x64\msvcr100.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\SqlServerTypes\x64\SqlServerSpatial110.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\SqlServerTypes\x86\msvcr100.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\SqlServerTypes\x86\SqlServerSpatial110.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\WsNAVManager.dll.config
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\WsNAVManager.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\WsNAVManager.pdb
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Antlr3.Runtime.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EntityFramework.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EntityFramework.SqlServer.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.Agent.Intercept.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.DependencyCollector.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.Web.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.WindowsServer.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ApplicationInsights.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ReportViewer.Common.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ReportViewer.DataVisualization.DLL
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ReportViewer.Design.DLL
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ReportViewer.WebDesign.DLL
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ReportViewer.WebForms.DLL
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ReportViewer.WinForms.DLL
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.SqlServer.Types.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.Web.Infrastructure.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Newtonsoft.Json.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Spire.License.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Spire.Pdf.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Buffers.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Drawing.Common.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Drawing.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Memory.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Net.Http.Formatting.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Numerics.Vectors.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Text.Encodings.Web.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Text.Json.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Threading.Tasks.Extensions.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.ValueTuple.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Cors.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Helpers.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Http.Cors.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Http.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Http.WebHost.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Mvc.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Optimization.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Razor.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.WebPages.Deployment.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.WebPages.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.WebPages.Razor.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\WebGrease.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EnvDTE.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EnvDTE80.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.mshtml.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\stdole.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EntityFramework.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EntityFramework.SqlServer.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Spire.License.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Spire.Pdf.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Buffers.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Memory.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Numerics.Vectors.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Text.Encodings.Web.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Text.Json.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Threading.Tasks.Extensions.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.ValueTuple.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Http.Cors.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Newtonsoft.Json.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Net.Http.Formatting.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Helpers.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Http.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Http.WebHost.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Mvc.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Optimization.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.Razor.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.WebPages.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.WebPages.Deployment.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\System.Web.WebPages.Razor.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Antlr3.Runtime.pdb
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.ApplicationInsights.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.DependencyCollector.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.WindowsServer.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\Microsoft.AI.Web.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EnvDTE.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\EnvDTE80.xml
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\EntityFramework.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\EntityFramework.SqlServer.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Net.Http.Formatting.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.Helpers.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.Http.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.Http.WebHost.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.Mvc.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.Optimization.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.Razor.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.WebPages.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.WebPages.Deployment.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\bin\it\System.Web.WebPages.Razor.resources.dll
+\\192.168.133.114\Gestionale\Filippo Mereu\Workspaces\TalHolland\server\WsNAVManager\obj\Release\WsNAVManager.csproj.CopyComplete
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\x86\SqlServerSpatial160.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\x64\SqlServerSpatial160.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\ApplicationInsights.config
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\WsNAVManager.dll.config
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\WsNAVManager.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\WsNAVManager.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\WsNAVManager.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\csc.exe
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\csc.exe.config
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\csc.rsp
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\csi.exe
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\csi.exe.config
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\csi.rsp
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.Managed.Core.targets
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Buffers.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Collections.Immutable.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Memory.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Numerics.Vectors.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\vbc.exe
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\vbc.exe.config
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\vbc.rsp
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\VBCSCompiler.exe
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\roslyn\VBCSCompiler.exe.config
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Antlr3.Runtime.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.Agent.Intercept.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.DependencyCollector.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.Web.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.WindowsServer.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ApplicationInsights.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ReportViewer.Common.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ReportViewer.DataVisualization.DLL
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ReportViewer.Design.DLL
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ReportViewer.WebDesign.DLL
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ReportViewer.WinForms.DLL
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.SqlServer.Types.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.Web.Infrastructure.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Newtonsoft.Json.Bson.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Newtonsoft.Json.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Spire.Pdf.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Buffers.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Diagnostics.DiagnosticSource.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Drawing.Common.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Drawing.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Memory.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Net.Http.Formatting.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Numerics.Vectors.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Text.Encodings.Web.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Text.Json.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Threading.Tasks.Extensions.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.ValueTuple.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Cors.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Helpers.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Http.Cors.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Http.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Http.WebHost.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Mvc.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Optimization.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Razor.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.WebPages.Deployment.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.WebPages.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.WebPages.Razor.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\WebGrease.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\EnvDTE.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\EnvDTE80.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.mshtml.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\stdole.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Antlr3.Runtime.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.DependencyCollector.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.DependencyCollector.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.Web.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.Web.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.WindowsServer.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AI.WindowsServer.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ApplicationInsights.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.ApplicationInsights.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Newtonsoft.Json.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Newtonsoft.Json.Bson.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Newtonsoft.Json.Bson.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\Spire.Pdf.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Buffers.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Diagnostics.DiagnosticSource.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Drawing.Common.pdb
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Drawing.Common.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Memory.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Net.Http.Formatting.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Numerics.Vectors.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Text.Encodings.Web.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Text.Json.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Threading.Tasks.Extensions.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.ValueTuple.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Helpers.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Http.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Http.Cors.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Http.WebHost.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Mvc.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Razor.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.WebPages.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.WebPages.Deployment.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.WebPages.Razor.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\System.Web.Optimization.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\EnvDTE.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\EnvDTE80.xml
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Net.Http.Formatting.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.Helpers.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.Http.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.Http.WebHost.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.Mvc.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.Razor.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.WebPages.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.WebPages.Deployment.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.WebPages.Razor.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\bin\it\System.Web.Optimization.resources.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\obj\Release\WsNAVManager.csproj.AssemblyReference.cache
+C:\JM\Github\Tal Holland\server\WsNAVManager\obj\Release\WsNAVManager.csproj.CoreCompileInputs.cache
+C:\JM\Github\Tal Holland\server\WsNAVManager\obj\Release\WsNAVManager.csproj.CopyComplete
+C:\JM\Github\Tal Holland\server\WsNAVManager\obj\Release\WsNAVManager.dll
+C:\JM\Github\Tal Holland\server\WsNAVManager\obj\Release\WsNAVManager.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\x86\SqlServerSpatial160.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\x64\SqlServerSpatial160.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\ApplicationInsights.config
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\WsNAVManager.dll.config
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\WsNAVManager.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\WsNAVManager.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\WsNAVManager.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\csc.exe
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\csc.exe.config
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\csc.rsp
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\csi.exe
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\csi.exe.config
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\csi.rsp
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.Managed.Core.CurrentVersions.targets
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.Managed.Core.targets
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Buffers.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Collections.Immutable.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Memory.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Numerics.Vectors.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Reflection.Metadata.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\vbc.exe
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\vbc.exe.config
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\vbc.rsp
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\VBCSCompiler.exe
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\roslyn\VBCSCompiler.exe.config
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Antlr3.Runtime.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.Agent.Intercept.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.DependencyCollector.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.Web.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.WindowsServer.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ApplicationInsights.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ReportViewer.Common.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ReportViewer.DataVisualization.DLL
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ReportViewer.Design.DLL
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ReportViewer.ProcessingObjectModel.DLL
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ReportViewer.WebDesign.DLL
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ReportViewer.WebForms.DLL
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ReportViewer.WinForms.DLL
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.SqlServer.Types.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.Web.Infrastructure.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Newtonsoft.Json.Bson.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Newtonsoft.Json.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Spire.Pdf.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Buffers.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Diagnostics.DiagnosticSource.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Drawing.Common.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Drawing.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Memory.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Net.Http.Formatting.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Numerics.Vectors.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Text.Encodings.Web.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Text.Json.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Threading.Tasks.Extensions.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.ValueTuple.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Cors.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Helpers.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Http.Cors.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Http.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Http.WebHost.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Mvc.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Optimization.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Razor.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.WebPages.Deployment.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.WebPages.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.WebPages.Razor.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\WebGrease.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\EnvDTE.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\EnvDTE80.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.mshtml.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\stdole.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Antlr3.Runtime.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.DependencyCollector.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.DependencyCollector.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.PerfCounterCollector.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.Web.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.Web.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.WindowsServer.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AI.WindowsServer.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ApplicationInsights.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.ApplicationInsights.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Newtonsoft.Json.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Newtonsoft.Json.Bson.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Newtonsoft.Json.Bson.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\Spire.Pdf.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Buffers.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Diagnostics.DiagnosticSource.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Drawing.Common.pdb
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Drawing.Common.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Memory.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Net.Http.Formatting.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Numerics.Vectors.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Text.Encodings.Web.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Text.Json.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Threading.Tasks.Extensions.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.ValueTuple.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Helpers.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Http.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Http.Cors.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Http.WebHost.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Mvc.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Razor.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.WebPages.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.WebPages.Deployment.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.WebPages.Razor.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\System.Web.Optimization.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\EnvDTE.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\EnvDTE80.xml
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\de\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\es\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\fr\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\ja\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\ko\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\pt\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\ru\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Net.Http.Formatting.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.Helpers.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.Http.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.Http.WebHost.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.Mvc.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.Razor.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.WebPages.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.WebPages.Deployment.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.WebPages.Razor.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\bin\it\System.Web.Optimization.resources.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\obj\Release\WsNAVManager.csproj.AssemblyReference.cache
+C:\JM\Github\Tal Holland\server_\WsNAVManager\obj\Release\WsNAVManager.csproj.CoreCompileInputs.cache
+C:\JM\Github\Tal Holland\server_\WsNAVManager\obj\Release\WsNAVManager.csproj.CopyComplete
+C:\JM\Github\Tal Holland\server_\WsNAVManager\obj\Release\WsNAVManager.dll
+C:\JM\Github\Tal Holland\server_\WsNAVManager\obj\Release\WsNAVManager.pdb

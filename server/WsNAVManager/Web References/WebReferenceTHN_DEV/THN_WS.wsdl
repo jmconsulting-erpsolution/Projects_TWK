@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/THN_WS" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/THN_WS" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/THN_WS" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="UpdateVendorLedgerEntry">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="_DocumentNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="_Blocked" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="UpdateVendorLedgerEntry_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="UpdateVendorLedgerEntry">
+    <part name="parameters" element="tns:UpdateVendorLedgerEntry" />
+  </message>
+  <message name="UpdateVendorLedgerEntry_Result">
+    <part name="parameters" element="tns:UpdateVendorLedgerEntry_Result" />
+  </message>
+  <portType name="THN_WS_Port">
+    <operation name="UpdateVendorLedgerEntry">
+      <input name="UpdateVendorLedgerEntry" message="tns:UpdateVendorLedgerEntry" />
+      <output name="UpdateVendorLedgerEntry_Result" message="tns:UpdateVendorLedgerEntry_Result" />
+    </operation>
+  </portType>
+  <binding name="THN_WS_Binding" type="tns:THN_WS_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="UpdateVendorLedgerEntry">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/THN_WS:UpdateVendorLedgerEntry" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="UpdateVendorLedgerEntry">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="UpdateVendorLedgerEntry_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="THN_WS">
+    <port name="THN_WS_Port" binding="tns:THN_WS_Binding">
+      <address location="http://192.168.64.3:7347/TALHOLLAND_DEV/WS/TAL%20HOLLAND%20BV/Codeunit/THN_WS" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>
