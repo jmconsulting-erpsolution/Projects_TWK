@@ -1,0 +1,137 @@
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\ApplicationInsights.config
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Antlr3.Runtime.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.Web.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Newtonsoft.Json.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Net.Http.Formatting.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Cors.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Helpers.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Http.Cors.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Http.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Http.WebHost.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Mvc.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Optimization.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Razor.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.WebPages.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.WebPages.Razor.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\WebGrease.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Http.Cors.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Newtonsoft.Json.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Net.Http.Formatting.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Helpers.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Http.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Http.WebHost.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Mvc.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Optimization.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.Razor.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.WebPages.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\System.Web.WebPages.Razor.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Antlr3.Runtime.pdb
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\Microsoft.AI.Web.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Net.Http.Formatting.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.Helpers.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.Http.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.Http.WebHost.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.Mvc.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.Optimization.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.Razor.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.WebPages.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.WebPages.Deployment.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\System.Web.WebPages.Razor.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\obj\Release\WebApiB2B.csprojResolveAssemblyReference.cache
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\obj\Release\WebApiB2B.csproj.CoreCompileInputs.cache
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\WebApiB2B.dll.config
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\WebApiB2B.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\WebApiB2B.pdb
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\EntityFramework.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\EntityFramework.SqlServer.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\EntityFramework.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\EntityFramework.SqlServer.xml
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\it\EntityFramework.resources.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\obj\Release\WebApiB2B.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\obj\Release\WebApiB2B.pdb
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\bin\WebApiB2B.XmlSerializers.dll
+C:\Users\mereu\Workspaces\b2b\server\WebApiCRM\obj\Release\WebApiB2B.XmlSerializers.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\ApplicationInsights.config
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\WebApiB2B.dll.config
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\WebApiB2B.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\WebApiB2B.XmlSerializers.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\WebApiB2B.pdb
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Antlr3.Runtime.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\EntityFramework.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\EntityFramework.SqlServer.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.Web.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.ApplicationInsights.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Newtonsoft.Json.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Net.Http.Formatting.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Cors.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Helpers.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Http.Cors.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Http.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Http.WebHost.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Mvc.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Optimization.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Razor.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.WebPages.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.WebPages.Razor.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\WebGrease.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\EntityFramework.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\EntityFramework.SqlServer.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Http.Cors.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Newtonsoft.Json.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Net.Http.Formatting.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Helpers.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Http.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Http.WebHost.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Mvc.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Optimization.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.Razor.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.WebPages.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\System.Web.WebPages.Razor.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Antlr3.Runtime.pdb
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.ApplicationInsights.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\Microsoft.AI.Web.xml
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\EntityFramework.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Net.Http.Formatting.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.Helpers.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.Http.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.Http.WebHost.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.Mvc.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.Optimization.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.Razor.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.WebPages.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.WebPages.Deployment.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\bin\it\System.Web.WebPages.Razor.resources.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\obj\Release\WebApiB2B.csproj.CoreCompileInputs.cache
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\obj\Release\WebApiB2B.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\obj\Release\WebApiB2B.pdb
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\obj\Release\WebApiB2B.XmlSerializers.dll
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\obj\Release\WebApiB2B.csprojAssemblyReference.cache
+C:\Users\mereu\Workspaces\JM piattaforma Mnemos\server\WebApiCRM\obj\Release\WebApiB2B.csproj.CopyComplete

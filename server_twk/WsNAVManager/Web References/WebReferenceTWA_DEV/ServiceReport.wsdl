@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:tns="urn:microsoft-dynamics-schemas/codeunit/ServiceReport" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/ServiceReport" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <schema elementFormDefault="qualified" targetNamespace="urn:microsoft-dynamics-schemas/codeunit/ServiceReport" xmlns="http://www.w3.org/2001/XMLSchema">
+      <element name="ChangeConfStatus">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="fromStatus" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="toStatus" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="reportHeaderNo" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="errorWS" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ChangeConfStatus_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="errorWS" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetNewConfStatus">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="fromStatus" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="reportHeaderNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="GetNewConfStatus_Result">
+        <complexType>
+          <sequence />
+        </complexType>
+      </element>
+      <element name="ResAvailability">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="pCodRes" type="string" />
+            <element minOccurs="1" maxOccurs="1" name="pDate" type="date" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ResAvailability_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="decimal" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ChangeServiceReportWS">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="_FromStatus" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="_ToStatus" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="_ReportHeaderNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ChangeServiceReportWS_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ChangeServiceReportWSToStatus">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="_ToStatus" type="int" />
+            <element minOccurs="1" maxOccurs="1" name="_ReportHeaderNo" type="string" />
+          </sequence>
+        </complexType>
+      </element>
+      <element name="ChangeServiceReportWSToStatus_Result">
+        <complexType>
+          <sequence>
+            <element minOccurs="1" maxOccurs="1" name="return_value" type="int" />
+          </sequence>
+        </complexType>
+      </element>
+    </schema>
+  </types>
+  <message name="ChangeConfStatus">
+    <part name="parameters" element="tns:ChangeConfStatus" />
+  </message>
+  <message name="ChangeConfStatus_Result">
+    <part name="parameters" element="tns:ChangeConfStatus_Result" />
+  </message>
+  <message name="GetNewConfStatus">
+    <part name="parameters" element="tns:GetNewConfStatus" />
+  </message>
+  <message name="GetNewConfStatus_Result">
+    <part name="parameters" element="tns:GetNewConfStatus_Result" />
+  </message>
+  <message name="ResAvailability">
+    <part name="parameters" element="tns:ResAvailability" />
+  </message>
+  <message name="ResAvailability_Result">
+    <part name="parameters" element="tns:ResAvailability_Result" />
+  </message>
+  <message name="ChangeServiceReportWS">
+    <part name="parameters" element="tns:ChangeServiceReportWS" />
+  </message>
+  <message name="ChangeServiceReportWS_Result">
+    <part name="parameters" element="tns:ChangeServiceReportWS_Result" />
+  </message>
+  <message name="ChangeServiceReportWSToStatus">
+    <part name="parameters" element="tns:ChangeServiceReportWSToStatus" />
+  </message>
+  <message name="ChangeServiceReportWSToStatus_Result">
+    <part name="parameters" element="tns:ChangeServiceReportWSToStatus_Result" />
+  </message>
+  <portType name="ServiceReport_Port">
+    <operation name="ChangeConfStatus">
+      <input name="ChangeConfStatus" message="tns:ChangeConfStatus" />
+      <output name="ChangeConfStatus_Result" message="tns:ChangeConfStatus_Result" />
+    </operation>
+    <operation name="GetNewConfStatus">
+      <input name="GetNewConfStatus" message="tns:GetNewConfStatus" />
+      <output name="GetNewConfStatus_Result" message="tns:GetNewConfStatus_Result" />
+    </operation>
+    <operation name="ResAvailability">
+      <input name="ResAvailability" message="tns:ResAvailability" />
+      <output name="ResAvailability_Result" message="tns:ResAvailability_Result" />
+    </operation>
+    <operation name="ChangeServiceReportWS">
+      <input name="ChangeServiceReportWS" message="tns:ChangeServiceReportWS" />
+      <output name="ChangeServiceReportWS_Result" message="tns:ChangeServiceReportWS_Result" />
+    </operation>
+    <operation name="ChangeServiceReportWSToStatus">
+      <input name="ChangeServiceReportWSToStatus" message="tns:ChangeServiceReportWSToStatus" />
+      <output name="ChangeServiceReportWSToStatus_Result" message="tns:ChangeServiceReportWSToStatus_Result" />
+    </operation>
+  </portType>
+  <binding name="ServiceReport_Binding" type="tns:ServiceReport_Port">
+    <binding transport="http://schemas.xmlsoap.org/soap/http" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    <operation name="ChangeConfStatus">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/ServiceReport:ChangeConfStatus" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ChangeConfStatus">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ChangeConfStatus_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="GetNewConfStatus">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/ServiceReport:GetNewConfStatus" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="GetNewConfStatus">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="GetNewConfStatus_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ResAvailability">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/ServiceReport:ResAvailability" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ResAvailability">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ResAvailability_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ChangeServiceReportWS">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/ServiceReport:ChangeServiceReportWS" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ChangeServiceReportWS">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ChangeServiceReportWS_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+    <operation name="ChangeServiceReportWSToStatus">
+      <operation soapAction="urn:microsoft-dynamics-schemas/codeunit/ServiceReport:ChangeServiceReportWSToStatus" style="document" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      <input name="ChangeServiceReportWSToStatus">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </input>
+      <output name="ChangeServiceReportWSToStatus_Result">
+        <body use="literal" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServiceReport">
+    <port name="ServiceReport_Port" binding="tns:ServiceReport_Binding">
+      <address location="http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINOVA/Codeunit/ServiceReport" xmlns="http://schemas.xmlsoap.org/wsdl/soap/" />
+    </port>
+  </service>
+</definitions>
