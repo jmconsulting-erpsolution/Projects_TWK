@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WsNAVManager</RootNamespace>
     <AssemblyName>WsNAVManager</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
@@ -143,6 +143,7 @@
     </Reference>
     <Reference Include="System.Security" />
     <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Text.Json, Version=9.0.0.11, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL" />
     <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\portable-net45+win8+wp8+wpa81\System.Threading.Tasks.Extensions.dll</HintPath>
     </Reference>
@@ -234,6 +235,7 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\SampleDirection.cs" />
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
+    <Compile Include="Controllers\TOTEMController.cs" />
     <Compile Include="Controllers\NAVController.cs" />
     <Compile Include="DAL\WebAccessLayer.cs" />
     <Compile Include="DAL\Utility.cs" />
@@ -418,7 +420,7 @@
       <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
       <CachedSettingsPropName>WsNAVManager_WebReferenceTHN_PROD_THN_WS</CachedSettingsPropName>
     </WebReferenceUrl>
-	<WebReferenceUrl Include="http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINOVA/Codeunit/ServiceReport">
+    <WebReferenceUrl Include="http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINOVA/Codeunit/ServiceReport">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\WebReferenceTWA_DEV\</RelPath>
       <UpdateFromURL>http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINOVA/Codeunit/ServiceReport</UpdateFromURL>
