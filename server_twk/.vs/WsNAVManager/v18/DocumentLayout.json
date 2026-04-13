@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|c:\\jm\\github\\projects_twk\\server_twk\\wsnavmanager\\dal\\webaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\dal\\webaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|c:\\jm\\github\\projects_twk\\server_twk\\wsnavmanager\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,19 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TOTEMController.cs",
-              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\TOTEMController.cs",
-              "RelativeDocumentMoniker": "WsNAVManager\\Controllers\\TOTEMController.cs",
-              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\TOTEMController.cs",
-              "RelativeToolTip": "WsNAVManager\\Controllers\\TOTEMController.cs",
-              "ViewState": "AgIAAGwAAAAAAAAAAAAswHYAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T12:36:52.699Z",
+              "DocumentIndex": 2,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web.config",
+              "RelativeDocumentMoniker": "WsNAVManager\\Web.config",
+              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web.config",
+              "RelativeToolTip": "WsNAVManager\\Web.config",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAkwCEAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-04-13T14:09:37.561Z",
               "EditorCaption": ""
             },
             {
@@ -41,9 +45,22 @@
               "RelativeDocumentMoniker": "WsNAVManager\\DAL\\WebAccessLayer.cs",
               "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\DAL\\WebAccessLayer.cs",
               "RelativeToolTip": "WsNAVManager\\DAL\\WebAccessLayer.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAtwIQAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAI8AAAAAAAAAAAAwwKEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-09T11:01:23.852Z",
+              "WhenOpened": "2026-04-13T14:02:07.042Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TOTEMController.cs",
+              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\TOTEMController.cs",
+              "RelativeDocumentMoniker": "WsNAVManager\\Controllers\\TOTEMController.cs",
+              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\TOTEMController.cs",
+              "RelativeToolTip": "WsNAVManager\\Controllers\\TOTEMController.cs",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAYwHoAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-13T14:01:39.421Z",
               "EditorCaption": ""
             }
           ]

@@ -481,6 +481,32 @@
             </summary>
             <param name="documentPath">The physical path to XML document.</param>
         </member>
+        <member name="M:WsNAVManager.Controllers.TOTEMController.GetTotemJobs(System.String,System.String)">
+            <summary>
+            Metodo GET
+            URL: api/nav/totemjobs/{key}/{company}
+            Web service per scaricare la lista delle commesse
+            </summary>
+            <param name="key">
+            </param>
+            <returns>OK se il web service risponde con successo</returns>
+        </member>
+        <member name="M:WsNAVManager.Controllers.TOTEMController.PostCheckTotemResource(System.String,System.String,System.Object)">
+            <summary>
+            Metodo POST
+            URL: api/nav/checktotemresource/{key}/{company}
+            Web service per accedere tramite la risorsa
+            </summary>
+            <returns>OK se il web service risponde con successo</returns>
+        </member>
+        <member name="M:WsNAVManager.Controllers.TOTEMController.PostInsertTotemActivity(System.String,System.String,System.Object)">
+            <summary>
+            Metodo POST
+            URL: api/nav/inserttotemactivity/{key}/{company}
+            Web service per le ore lavorate sulla commessa
+            </summary>
+            <returns>OK se il web service risponde con successo</returns>
+        </member>
         <member name="M:WsNAVManager.Controllers.NAVController.Get(System.String)">
             <summary>
             Metodo GET

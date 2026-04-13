@@ -14,48 +14,17 @@ namespace WsNAVManager.Controllers
     [EnableCors(origins: "*", headers: "*", methods: "*")]
     public class TOTEMController : ApiController
     {
-
         // GET api/{entry}
         /// <summary>
         /// Metodo GET
-        /// URL: api/nav/{key}
-        /// Web service di test per passaggio parametri
-        /// </summary>
-        /// <param name="key">
-        /// </param>
-        /// <returns>OK se il web service risponde con il valore passato</returns>
-        [Route("api/nav/{key}")]
-        public object Get(string key)
-        {
-            string error = "";
-            try
-            {
-                return Ok(key);
-            }
-            catch (Exception ex)
-            {
-                Utility.Log("GET api/nav/{key}", ex);
-                error = ex.Message;
-            }
-            return BadRequest(error);
-        }
-
-
-        // GET api/{entry}
-        /// <summary>
-        /// Metodo GET
-        /// URL: api/nav/{key}/{toStatus}/{reportHeaderNo}
+        /// URL: api/nav/totemjobs/{key}/{company}
         /// Web service per scaricare la lista delle commesse
         /// </summary>
         /// <param name="key">
         /// </param>
-        /// <param name="toStatus">
-        /// </param>
-        /// /// <param name="type">
-        /// </param>
         /// <returns>OK se il web service risponde con successo</returns>
-        [Route("api/nav/ChangeServiceReportWSToStatus/{key}/{toStatus}")]
-        public object GetList(string key, int toStatus, bool type)
+        [Route("api/nav/totemjobs/{key}/{company}")]
+        public object GetTotemJobs(string key, string company)
         {
             string error = "";
             try
@@ -68,15 +37,15 @@ namespace WsNAVManager.Controllers
                 {
                     return Unauthorized();
                 }
-
+                var filters = "";
                 DAL.WebAccessLayer wal = new DAL.WebAccessLayer();
-                decimal qty = wal.ChangeServiceReportTOTEMWSToStatus(toStatus);
+                dynamic response = wal.TOTEMODataWS("TotemJobs", filters, company);
 
-                return Ok(qty);
+                return Ok(response);
             }
             catch (Exception ex)
             {
-                Utility.Log("GET api/nav/{key}/{documentNo}/{blocked}", ex);
+                Utility.Log("GET api/nav/totemjobs/{key}/{company}", ex);
                 error = ex.Message;
             }
             return BadRequest(error);
@@ -86,12 +55,12 @@ namespace WsNAVManager.Controllers
         // POST api/{entry}
         /// <summary>
         /// Metodo POST
-        /// URL: api/nav/{key}/{toStatus}/{reportHeaderNo}
+        /// URL: api/nav/checktotemresource/{key}/{company}
         /// Web service per accedere tramite la risorsa
         /// </summary>
         /// <returns>OK se il web service risponde con successo</returns>
-        [Route("api/nav/ChangeServiceReportWSToStatus/{key}/{toStatus}")]
-        public object PostResource([FromBody] object jsonData)
+        [Route("api/nav/checktotemresource/{key}/{company}")]
+        public object PostCheckTotemResource(string key, string company, [FromBody] object jsonData)
         {
             string error = "";
             try
@@ -107,13 +76,13 @@ namespace WsNAVManager.Controllers
                 }
 
                 DAL.WebAccessLayer wal = new DAL.WebAccessLayer();
-                decimal qty = wal.ChangeServiceReportTOTEMWSToStatus(toStatus);
+                dynamic response = wal.TOTEMSoapWS("CheckTotemResource", json, company);
 
-                return Ok(qty);
+                return Ok(response);
             }
             catch (Exception ex)
             {
-                Utility.Log("GET api/nav/{key}/{documentNo}/{blocked}", ex);
+                Utility.Log("GET api/nav/checktotemresource/{key}/{company}", ex);
                 error = ex.Message;
             }
             return BadRequest(error);
@@ -124,12 +93,12 @@ namespace WsNAVManager.Controllers
         // POST api/{entry}
         /// <summary>
         /// Metodo POST
-        /// URL: api/nav/{key}/{toStatus}/{reportHeaderNo}
+        /// URL: api/nav/inserttotemactivity/{key}/{company}
         /// Web service per le ore lavorate sulla commessa
         /// </summary>
         /// <returns>OK se il web service risponde con successo</returns>
-        [Route("api/nav/ChangeServiceReportWSToStatus/{key}/{toStatus}")]
-        public object PostTime([FromBody] object jsonData)
+        [Route("api/nav/inserttotemactivity/{key}/{company}")]
+        public object PostInsertTotemActivity(string key, string company, [FromBody] object jsonData)
         {
             string error = "";
             try
@@ -145,13 +114,13 @@ namespace WsNAVManager.Controllers
                 }
 
                 DAL.WebAccessLayer wal = new DAL.WebAccessLayer();
-                decimal qty = wal.ChangeServiceReportTOTEMWSToStatus(toStatus);
+                dynamic response = wal.TOTEMSoapWS("InsertTotemActivity", json, company);
 
-                return Ok(qty);
+                return Ok(response);
             }
             catch (Exception ex)
             {
-                Utility.Log("GET api/nav/{key}/{documentNo}/{blocked}", ex);
+                Utility.Log("GET api/nav/inserttotemactivity/{key}/{company}", ex);
                 error = ex.Message;
             }
             return BadRequest(error);

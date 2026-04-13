@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -14,9 +15,8 @@ using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
-using System.Text.Json;
+using System.Xml.Linq;
 using WsNAVManager;
-using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace WsNAVManager.DAL
 {
@@ -100,7 +100,7 @@ namespace WsNAVManager.DAL
             }
             catch (Exception ex)
             {
-                Utility.Log(nameof(LoadDataWS),ex);
+                Utility.Log(nameof(LoadDataWS), ex);
             }
             return outstring;
         }
@@ -111,7 +111,7 @@ namespace WsNAVManager.DAL
             xml.LoadXml(text);
 
             string json = JsonConvert.SerializeXmlNode(xml);
-            return json;        
+            return json;
         }
         public decimal ChangeServiceReportWSToStatus(int toStatus, string reportHeaderNo)
         {
@@ -123,7 +123,7 @@ namespace WsNAVManager.DAL
                 WebReferenceTWK_DEV.ServiceReport ws = new WebReferenceTWK_DEV.ServiceReport();
                 ws.PreAuthenticate = true;
                 ws.Credentials = new NetworkCredential(net_user, net_password);
-                return ws.ChangeServiceReportWSToStatus(toStatus, reportHeaderNo);                
+                return ws.ChangeServiceReportWSToStatus(toStatus, reportHeaderNo);
             }
             if (env == "TWK_PROD")
             {
@@ -136,108 +136,261 @@ namespace WsNAVManager.DAL
             return -1;
         }
 
-        public decimal ChangeServiceReportTOTEMWSToStatus(int toStatus)
+        public async Task<dynamic> TOTEMSoapWS(string functionName, dynamic jsonObj, string company)
         {
             string env = ConfigurationManager.AppSettings["ENV_WS"];
-            string net_user = ConfigurationManager.AppSettings["WS_User"];
-            string net_password = ConfigurationManager.AppSettings["WS_Password"];
-            if (env == "TWK_DEV")
+            string totem_user = ConfigurationManager.AppSettings["WS_Totem_User"];
+            string totem_password = ConfigurationManager.AppSettings["WS_Totem_Password"];
+
+            var client = new NavSoapClient(totem_user, totem_password, company);
+
+            string soapXml = BuildNavSoapEnvelope(functionName, jsonObj);
+
+            string responseXml = await client.CallAsync(
+                functionName,
+                soapXml
+            );
+
+            return responseXml;
+        }
+
+
+        public async Task<dynamic> TOTEMODataWS(string functionName, dynamic jsonObj, string company)
+        {
+            string env = ConfigurationManager.AppSettings["ENV_WS"];
+            string totem_user = "";
+            string totem_password = "";
+            if (company == "TWINPACK")
             {
-                WebReferenceTWK_DEV.ServiceReport ws = new WebReferenceTWK_DEV.ServiceReport();
-                ws.PreAuthenticate = true;
-                ws.Credentials = new NetworkCredential(net_user, net_password);
-                //return ws.ChangeServiceReportWSToStatus(toStatus, reportHeaderNo);
+                totem_user = ConfigurationManager.AppSettings["TWK_Totem_User"];
+                totem_password = ConfigurationManager.AppSettings["TWK_Totem_Password"];
             }
-            if (env == "TWK_PROD")
+            else if (company == "TWINOVA")
             {
-                WebReferenceTWK_PROD.ServiceReport ws = new WebReferenceTWK_PROD.ServiceReport();
-                ws.PreAuthenticate = true;
-                ws.Credentials = new NetworkCredential(net_user, net_password);
-                //return ws.ChangeServiceReportWSToStatus(toStatus, reportHeaderNo);
+                totem_user = ConfigurationManager.AppSettings["TWN_Totem_User"];
+                totem_password = ConfigurationManager.AppSettings["TWN_Totem_Password"];
             }
 
-            return -1;
+
+            var client = new NavODataClient(totem_user, totem_password, company);
+
+            // Se ci sono parametri → query string
+            string query = BuildODataQuery(jsonObj);
+
+            JToken response = await client.GetAsync(
+                functionName + query
+            );
+
+            // Caso tipico NAV: ritorno numerico
+            return response;
         }
+
+        private decimal ParseSoapDecimalResult(string soapResponse)
+        {
+            var doc = XDocument.Parse(soapResponse);
+
+            var value = doc.Descendants()
+                .FirstOrDefault(x => x.Name.LocalName == "return_value");
+
+            if (value == null)
+                throw new Exception("return_value non trovato nella risposta SOAP");
+
+            return decimal.Parse(value.Value, CultureInfo.InvariantCulture);
+        }
+
+
+
+        private decimal ParseODataDecimalResult(JToken doc)
+        {
+            var valueArray = doc["value"] as JArray;
+
+            if (valueArray != null && valueArray.Count > 0)
+            {
+                var first = valueArray[0] as JObject;
+
+                if (first != null)
+                {
+                    foreach (var prop in first.Properties())
+                    {
+                        if (prop.Value.Type == JTokenType.Integer ||
+                            prop.Value.Type == JTokenType.Float)
+                        {
+                            return prop.Value.Value<decimal>();
+                        }
+                    }
+                }
+            }
+
+            throw new Exception("Valore numerico non trovato nella risposta OData");
+        }
+
+
+
+
+        private string BuildNavSoapEnvelope(string functionName, dynamic jsonObj)
+        {
+            XNamespace soap = "http://schemas.xmlsoap.org/soap/envelope/";
+            XNamespace nav = "urn:microsoft-dynamics-schemas/codeunit/JM_Utility";
+
+            var methodElement = new XElement(nav + functionName);
+
+            // dynamic → JObject sotto il cofano
+            foreach (var prop in jsonObj)
+            {
+                string name = prop.Name;
+                string value = Convert.ToString(prop.Value, CultureInfo.InvariantCulture);
+
+                methodElement.Add(
+                    new XElement(nav + name, value)
+                );
+            }
+
+            var envelope = new XDocument(
+                new XElement(soap + "Envelope",
+                    new XAttribute(XNamespace.Xmlns + "soap", soap),
+                    new XElement(soap + "Body", methodElement)
+                )
+            );
+
+            return envelope.ToString(SaveOptions.DisableFormatting);
+        }
+
+
+        private string BuildODataQuery(dynamic jsonObj)
+        {
+            if (jsonObj == null)
+                return string.Empty;
+
+            var query = new List<string>();
+
+            foreach (var prop in jsonObj)
+            {
+                string key = prop.Name;
+                string value = Uri.EscapeDataString(prop.Value.ToString());
+                query.Add($"{key}={value}");
+            }
+
+            return "?" + string.Join("&", query);
+        }
+    }
+}
+
+
+public class NavSoapClient
+{
+    private readonly HttpClient _client;
+    private readonly string _serviceUrl;
+
+    public NavSoapClient(string username, string password, string company)
+    {
+        if (company == "TWINPACK")
+        {
+            _serviceUrl =
+            ConfigurationManager.AppSettings["TWK_Url"] +
+            ConfigurationManager.AppSettings["TWK_SoapPort"] +
+            ConfigurationManager.AppSettings["TWK_UrlFolder"] +
+            ConfigurationManager.AppSettings["TWK_Soap"] +
+            "JM_Utility";
+        }
+        else if (company == "TWINOVA")
+        {
+            _serviceUrl =
+            ConfigurationManager.AppSettings["TWN_Url"] +
+            ConfigurationManager.AppSettings["TWN_SoapPort"] +
+            ConfigurationManager.AppSettings["TWN_UrlFolder"] +
+            ConfigurationManager.AppSettings["TWN_Soap"] +
+            "JM_Utility";
+        }
+
+        _client = new HttpClient();
+
+        var authBytes = Encoding.ASCII.GetBytes($"{username}:{password}");
+        _client.DefaultRequestHeaders.Authorization =
+            new AuthenticationHeaderValue("Basic", Convert.ToBase64String(authBytes));
+    }
+
+    public async Task<string> CallAsync(string soapAction, string soapXml)
+    {
+        var content = new StringContent(soapXml, Encoding.UTF8, "text/xml");
+
+        content.Headers.Clear();
+        content.Headers.Add("Content-Type", "text/xml; charset=utf-8");
+
+        _client.DefaultRequestHeaders.Remove("SOAPAction");
+        _client.DefaultRequestHeaders.Add("SOAPAction",
+            $"urn:microsoft-dynamics-schemas/codeunit/JM_Utility:{soapAction}");
+
+        var response = await _client.PostAsync(_serviceUrl, content);
+        var responseText = await response.Content.ReadAsStringAsync();
+
+        if (!response.IsSuccessStatusCode)
+            throw new Exception($"SOAP ERROR {response.StatusCode}\n{responseText}");
+
+        return responseText;
+    }
+}
+
+
+public class NavODataClient
+{
+    private readonly HttpClient _client;
+    private readonly string _baseUrl;
+
+
+    public NavODataClient(string username, string password, string company)
+    {
+        if (company == "TWINPACK")
+        {
+            _baseUrl =
+            ConfigurationManager.AppSettings["TWK_Url"] +
+            ConfigurationManager.AppSettings["TWK_ODataPort"] +
+            ConfigurationManager.AppSettings["TWK_UrlFolder"] +
+            ConfigurationManager.AppSettings["TWK_OData"];
+        }
+        else if (company == "TWINOVA")
+        {
+            _baseUrl =
+            ConfigurationManager.AppSettings["TWN_Url"] +
+            ConfigurationManager.AppSettings["TWN_ODataPort"] +
+            ConfigurationManager.AppSettings["TWN_UrlFolder"] +
+            ConfigurationManager.AppSettings["TWN_OData"];
+        }
+
+
+        _client = new HttpClient();
+
+        var authBytes = Encoding.ASCII.GetBytes($"{username}:{password}");
+        _client.DefaultRequestHeaders.Authorization =
+            new AuthenticationHeaderValue("Basic", Convert.ToBase64String(authBytes));
+
+        _client.DefaultRequestHeaders.Accept.Add(
+            new MediaTypeWithQualityHeaderValue("application/json"));
+    }
+
+    public async Task<JToken> GetAsync(string entity)
+    {
+        var response = await _client.GetAsync(_baseUrl + entity);
+
+        if (!response.IsSuccessStatusCode)
+            throw new Exception(await response.Content.ReadAsStringAsync());
+
+        return JToken.Parse(await response.Content.ReadAsStringAsync());
     }
 
 
-    public class NavSoapClient
+    public async Task<JToken> PostAsync(string entity, object payload)
     {
-        private readonly HttpClient _client;
-        private readonly string _serviceUrl =
-            "http://tpnav18app.twinpack.local:7067/TWK_PRINT_DEV/WS/TWINPACK/Codeunit/JM_Utility";
+        var json = JsonConvert.SerializeObject(payload);
+        var content = new StringContent(json, Encoding.UTF8, "application/json");
 
-        public NavSoapClient(string username, string password)
-        {
-            _client = new HttpClient();
+        var response = await _client.PostAsync(_baseUrl + entity, content);
 
-            var authBytes = Encoding.ASCII.GetBytes($"{username}:{password}");
-            _client.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Basic", Convert.ToBase64String(authBytes));
-        }
+        var responseContent = await response.Content.ReadAsStringAsync();
 
-        public async Task<string> CallAsync(string soapAction, string soapXml)
-        {
-            var content = new StringContent(soapXml, Encoding.UTF8, "text/xml");
+        if (!response.IsSuccessStatusCode)
+            throw new Exception(responseContent);
 
-            content.Headers.Clear();
-            content.Headers.Add("Content-Type", "text/xml; charset=utf-8");
-
-            _client.DefaultRequestHeaders.Remove("SOAPAction");
-            _client.DefaultRequestHeaders.Add("SOAPAction",
-                $"urn:microsoft-dynamics-schemas/codeunit/JM_Utility:{soapAction}");
-
-            var response = await _client.PostAsync(_serviceUrl, content);
-            var responseText = await response.Content.ReadAsStringAsync();
-
-            if (!response.IsSuccessStatusCode)
-                throw new Exception($"SOAP ERROR {response.StatusCode}\n{responseText}");
-
-            return responseText;
-        }
-    }
-
-
-    public class NavODataClient
-    {
-        private readonly HttpClient _client;
-        private readonly string _baseUrl =
-            "http://tpnav18app.twinpack.local:7068/TWK_PRINT_DEV/OData/Company('TWINPACK')/";
-
-        public NavODataClient(string username, string password)
-        {
-            _client = new HttpClient();
-
-            var authBytes = Encoding.ASCII.GetBytes($"{username}:{password}");
-            _client.DefaultRequestHeaders.Authorization =
-                new AuthenticationHeaderValue("Basic", Convert.ToBase64String(authBytes));
-
-            _client.DefaultRequestHeaders.Accept.Add(
-                new MediaTypeWithQualityHeaderValue("application/json"));
-        }
-
-        public async Task<JsonDocument> GetAsync(string entity)
-        {
-            var response = await _client.GetAsync(_baseUrl + entity);
-
-            if (!response.IsSuccessStatusCode)
-                throw new Exception(await response.Content.ReadAsStringAsync());
-
-            return JsonDocument.Parse(await response.Content.ReadAsStringAsync());
-        }
-
-        public async Task<JsonDocument> PostAsync(string entity, object payload)
-        {
-            var json = JsonSerializer.Serialize(payload);
-            var content = new StringContent(json, Encoding.UTF8, "application/json");
-
-            var response = await _client.PostAsync(_baseUrl + entity, content);
-
-            if (!response.IsSuccessStatusCode)
-                throw new Exception(await response.Content.ReadAsStringAsync());
-
-            return JsonDocument.Parse(await response.Content.ReadAsStringAsync());
-        }
+        return JToken.Parse(responseContent);
     }
 
 }
