@@ -139,8 +139,18 @@ namespace WsNAVManager.DAL
         public async Task<dynamic> TOTEMSoapWS(string functionName, dynamic jsonObj, string company)
         {
             string env = ConfigurationManager.AppSettings["ENV_WS"];
-            string totem_user = ConfigurationManager.AppSettings["WS_Totem_User"];
-            string totem_password = ConfigurationManager.AppSettings["WS_Totem_Password"];
+            string totem_user = "";
+            string totem_password = "";
+            if (company == "TWINPACK")
+            {
+                totem_user = ConfigurationManager.AppSettings["TWK_Totem_User"];
+                totem_password = ConfigurationManager.AppSettings["TWK_Totem_Password"];
+            }
+            else if (company == "TWINOVA")
+            {
+                totem_user = ConfigurationManager.AppSettings["TWN_Totem_User"];
+                totem_password = ConfigurationManager.AppSettings["TWN_Totem_Password"];
+            }
 
             var client = new NavSoapClient(totem_user, totem_password, company);
 

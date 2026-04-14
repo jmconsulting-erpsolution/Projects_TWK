@@ -5,6 +5,7 @@ using System.Data;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
+using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Cors;
 using WsNAVManager.DAL;
@@ -24,7 +25,7 @@ namespace WsNAVManager.Controllers
         /// </param>
         /// <returns>OK se il web service risponde con successo</returns>
         [Route("api/nav/totemjobs/{key}/{company}")]
-        public object GetTotemJobs(string key, string company)
+        public async Task<object> GetTotemJobs(string key, string company)
         {
             string error = "";
             try
@@ -39,7 +40,7 @@ namespace WsNAVManager.Controllers
                 }
                 var filters = "";
                 DAL.WebAccessLayer wal = new DAL.WebAccessLayer();
-                dynamic response = wal.TOTEMODataWS("TotemJobs", filters, company);
+                dynamic response = await wal.TOTEMODataWS("TotemJobs", filters, company);
 
                 return Ok(response);
             }
@@ -60,7 +61,7 @@ namespace WsNAVManager.Controllers
         /// </summary>
         /// <returns>OK se il web service risponde con successo</returns>
         [Route("api/nav/checktotemresource/{key}/{company}")]
-        public object PostCheckTotemResource(string key, string company, [FromBody] object jsonData)
+        public async Task<object> PostCheckTotemResource(string key, string company, [FromBody] object jsonData)
         {
             string error = "";
             try
@@ -70,13 +71,13 @@ namespace WsNAVManager.Controllers
 
                 DAL.DataAccessLayer dal = new DAL.DataAccessLayer(Request);
 
-                if (json.key != authKey)
+                if (key != authKey)
                 {
                     return Unauthorized();
                 }
 
                 DAL.WebAccessLayer wal = new DAL.WebAccessLayer();
-                dynamic response = wal.TOTEMSoapWS("CheckTotemResource", json, company);
+                dynamic response = await wal.TOTEMSoapWS("CheckTotemResource", json, company);
 
                 return Ok(response);
             }
@@ -98,7 +99,7 @@ namespace WsNAVManager.Controllers
         /// </summary>
         /// <returns>OK se il web service risponde con successo</returns>
         [Route("api/nav/inserttotemactivity/{key}/{company}")]
-        public object PostInsertTotemActivity(string key, string company, [FromBody] object jsonData)
+        public async Task<object> PostInsertTotemActivity(string key, string company, [FromBody] object jsonData)
         {
             string error = "";
             try
@@ -108,13 +109,13 @@ namespace WsNAVManager.Controllers
 
                 DAL.DataAccessLayer dal = new DAL.DataAccessLayer(Request);
 
-                if (json.key != authKey)
+                if (key != authKey)
                 {
                     return Unauthorized();
                 }
 
                 DAL.WebAccessLayer wal = new DAL.WebAccessLayer();
-                dynamic response = wal.TOTEMSoapWS("InsertTotemActivity", json, company);
+                dynamic response = await wal.TOTEMSoapWS("InsertTotemActivity", json, company);
 
                 return Ok(response);
             }
