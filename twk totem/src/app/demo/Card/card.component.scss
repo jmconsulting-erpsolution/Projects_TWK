@@ -1,0 +1,94 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #e9ecf3; 
+}
+
+.full-page-card {
+  min-height: 65vh;
+  display: flex;
+  flex-direction: column;
+  color: #2c3e50;
+  background-color: #f0f4f8; /* Sfondo della card */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Input */
+.form-control {
+  background-color: #ffffff;
+  border: 1px solid #d0d7de;
+  border-radius: 6px;
+  color: #2c3e50;
+}
+
+/* Etichette */
+.form-label {
+  color: #2c3e50;
+}
+
+/* Bottoni extra */
+.btn-success, .btn-danger {
+  font-weight: 500;
+}
+
+.num-pad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.num-btn {
+  height: 70px;
+  font-size: 1.5rem;
+  border-radius: 10px;
+}
+
+//* HEADER CON FRECCIA + TITOLO */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+/* Freccia a sinistra */
+.back-button {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.back-button:hover {
+  background: #f0f0f0;
+}
+
+/* Icona */
+.arrow-icon {
+  width: 32px;
+  height: 28px;
+  filter: invert(32%) sepia(85%) saturate(2300%) hue-rotate(210deg)
+          brightness(95%) contrast(100%);
+}
+
+/* Titolo centrato */
+.titolo-commesse {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* (Serve per mantenere il titolo centrato) */
+.header-spacer {
+  width: 48px; /* stessa larghezza della freccia */
+  height: 48px;
+}

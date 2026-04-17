@@ -1,0 +1,132 @@
+// .titolo-commesse {
+//   text-align: center;
+//   margin-bottom: 40px;
+//   font-weight: 700;
+//   font-size: 2rem;
+// }
+
+/* === GRID 3 colonne === */
+.items-container-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+/* === CARD del singolo elemento === */
+.commessa-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+
+  cursor: pointer;
+  transition: all .25s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Hover elegante */
+.commessa-card:hover {
+  background: #f8f9fa;
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+  border-color: #d0d7de;
+}
+
+/* Codice grande */
+.commessa-codice {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0d6efd; /* blu bootstrap */
+  margin-bottom: 8px;
+}
+
+/* Descrizione più piccola */
+.commessa-descrizione {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #555;
+}
+
+/* HEADER CON FRECCIA + TITOLO */
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+  position: relative;
+}
+
+/* Freccia a sinistra */
+.back-button {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: 0.2s ease;
+}
+
+.back-button:hover {
+  background: #f0f0f0;
+}
+
+/* Icona */
+.arrow-icon {
+  width: 32px;
+  height: 28px;
+  filter: invert(32%) sepia(85%) saturate(2300%) hue-rotate(210deg)
+          brightness(95%) contrast(100%);
+}
+
+/* Titolo centrato */
+.titolo-commesse {
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+/* (Serve per mantenere il titolo centrato) */
+.header-spacer {
+  width: 48px; /* stessa larghezza della freccia */
+  height: 48px;
+}
+
+.items-container-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 🔥 5 per riga */
+  gap: 1rem;
+}
+
+
+@media (max-width: 1400px) {
+  .items-container-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .items-container-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .items-container-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .items-container-grid {
+    grid-template-columns: 1fr;
+  }
+}

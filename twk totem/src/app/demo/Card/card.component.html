@@ -1,0 +1,56 @@
+<div class=" mb-5">
+
+  <!-- HEADER: freccia + titolo -->
+  <div class="header-row">
+
+    <div class="back-button" (click)="goBack()">
+      <img src="./assets/images/arrow.png" alt="Indietro" class="arrow-icon" [style.filter]="appservice.getCompanyFilter()">
+    </div>
+
+    <h1 class="titolo-commessa">
+      Commessa: {{ appservice.JobNo }} - {{ appservice.JobDescription }}
+    </h1>
+
+    <div class="header-spacer"></div>
+
+  </div>
+
+  <!-- CARD INSERIMENTO ORE -->
+  <div class="card shadow-sm p-4 mx-auto" style="max-width: 600px;">
+    <h4 class="mb-3 text-center">Inserisci ore lavorate</h4>
+
+    <!-- INPUT -->
+    <input type="text"
+           class="form-control text-center fs-3 mb-4"
+           [value]="oreLavorate"
+           readonly />
+
+    <!-- TASTIERINO -->
+    <div class="num-pad">
+
+      <button *ngFor="let n of ['1','2','3','4','5','6','7','8','9']"
+              class="btn btn-light num-btn"
+              (click)="addValue(n)">
+        {{ n }}
+      </button>
+
+      <button class="btn btn-light num-btn" (click)="addValue(',')">,</button>
+      <button class="btn btn-light num-btn" (click)="addValue('0')">0</button>
+      <button class="btn btn-warning num-btn" (click)="delete()">Canc</button>
+
+    </div>
+
+    <div class="text-center mt-3">
+      <button class="btn btn-primary btn-lg w-100" (click)="confermaOre()">
+        INVIO
+      </button>
+    </div>
+
+  </div>
+
+  <br>
+  <h2 *ngIf="BlnMessage" style="text-align: center;">
+  {{ messageTxt }}
+</h2>
+
+</div>

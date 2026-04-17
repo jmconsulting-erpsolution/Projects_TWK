@@ -1,0 +1,16 @@
+.header-resource {      /* evita che stringa troppo */
+  white-space: nowrap;
+  padding-right: 10px;    /* niente a capo indesiderato */
+}
+
+.resource-title {
+  font-size: 1.4rem;      /* tipo h3 ma controllato */
+  font-weight: 700;
+  line-height: 1.2;
+  color: #212529;
+}
+
+.resource-subtitle {
+  font-size: 0.85rem;
+  color: #6c757d;
+}

@@ -1,0 +1,68 @@
+.auth-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #f4f7fc;
+}
+
+.auth-wrapper.v3 {
+  width: 100%;
+  max-width: 420px;
+  padding: 1rem;
+}
+
+.auth-form {
+  width: 100%;
+}
+
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  background-color: #ffffff;
+}
+
+.card-body {
+  padding: 2.5rem;
+}
+
+.auth-header h2 {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.auth-header p {
+  font-size: 1rem;
+  color: #6c757d;
+}
+
+.btn-primary {
+  background-color: #2f2f94; // Microsoft dark blue
+  border-color: #2f2f94;
+  color: #ffffff;
+  font-weight: 500;
+  padding: 0.75rem 1.25rem;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1e1e70;
+  border-color: #1e1e70;
+}
+
+.btn-outline-secondary {
+  border-radius: 6px;
+}
+
+img {
+  max-height: 50px;
+  margin-bottom: 1.5rem;
+}
+
+.badge-input {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+}
