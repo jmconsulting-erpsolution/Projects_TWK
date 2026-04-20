@@ -15,7 +15,7 @@ export const environment = {
   serverPortSoap: ":7067/",
   redirecTo: "http://tpnav18app.twinpack.local/",
   navAutorization: "VE9URU06T3NpcmlkZTIwMjYh",
-  company: "TWINOVA",
+  company: "TWINPACK",
   key: "jmAdiutoNav2024",
   mock: false
 

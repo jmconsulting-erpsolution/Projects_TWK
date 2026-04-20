@@ -15,7 +15,7 @@
   <div class="container vh-100 d-flex justify-content-center align-items-center">
     <div class="text-center">
 
-      <input #badgeInput type="text" class="badge-input" [(ngModel)]="badge" autocomplete="off" autofocus />
+      <input #badgeInput type="text" class="badge-input" [(ngModel)]="badge" (ngModelChange)="onBadgeChange($event)" autocomplete="off" />
 
       <!-- LOGO -->
       <img [src]="appService.setLogo('./assets/images/')" alt="Logo" class="img-fluid mb-4"
@@ -25,7 +25,9 @@
       <h1 class="fw-bold">Benvenuto</h1>
 
       <!-- SOTTOTITOLO -->
-      <p class="fs-4 mt-3 text-muted" (click)="scanBadge()">Scannerizza il badge per proseguire</p>
+      <p class="fs-4 mt-3 text-muted">Scannerizza il badge per proseguire</p>
+
+      <p class="badge-preview">{{ badge }}</p>
 
     </div>
   </div>
