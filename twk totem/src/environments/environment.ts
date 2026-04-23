@@ -6,11 +6,7 @@ import packageInfo from '../../package.json';
 
 export const environment = {
   appVersion: packageInfo.version,
-  redirecTo: "http://localhost:4200",
   production: false,
-  //navUser: "TOTEM",
-  //navPassword: "Osiride2026!",
-
   clientUrl: "http://192.168.0.141",
   serverUrl: "http://192.168.0.141",
   urlFolder: "NAVWS_DEV/publish",
@@ -21,8 +17,9 @@ export const environment = {
   clientPort: "",
   serverPortOData: ":7068/",
   serverPortSoap: ":7067/",
+  redirecTo: "http://tpnav18app.twinpack.local/",
   navAutorization: "VE9URU06T3NpcmlkZTIwMjYh",
-  company: "TWINOVA",
+  company: "TWINPACK",
   key: "jmAdiutoNav2024",
   mock: false
 

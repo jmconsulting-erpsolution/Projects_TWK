@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|c:\\jm\\github\\projects_twk\\server_twk\\wsnavmanager\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|c:\\jm\\github\\projects_twk\\server_twk\\wsnavmanager\\controllers\\totemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\controllers\\totemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\dal\\webaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\dal\\webaccesslayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\controllers\\totemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\controllers\\totemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,32 +32,33 @@
               "RelativeDocumentMoniker": "WsNAVManager\\Web.config",
               "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web.config",
               "RelativeToolTip": "WsNAVManager\\Web.config",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAkwB4AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAkwCgAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-04-13T14:09:37.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "WebAccessLayer.cs",
               "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\DAL\\WebAccessLayer.cs",
               "RelativeDocumentMoniker": "WsNAVManager\\DAL\\WebAccessLayer.cs",
               "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\DAL\\WebAccessLayer.cs",
               "RelativeToolTip": "WsNAVManager\\DAL\\WebAccessLayer.cs",
-              "ViewState": "AgIAAHQBAAAAAAAAAAAcwHsBAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAUwJYAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-13T14:02:07.042Z"
+              "WhenOpened": "2026-04-13T14:02:07.042Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TOTEMController.cs",
               "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\TOTEMController.cs",
               "RelativeDocumentMoniker": "WsNAVManager\\Controllers\\TOTEMController.cs",
               "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\TOTEMController.cs",
               "RelativeToolTip": "WsNAVManager\\Controllers\\TOTEMController.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAADwv0kAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAADwv08AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T14:01:39.421Z",
               "EditorCaption": ""

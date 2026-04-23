@@ -76,7 +76,7 @@ export class CardComponent {
         const valore = this.oreLavorate.toString().replace(',', '.');
         this.oreLavorate = "";
         let num = Number(valore);
-        if(this.appservice.HourWorked + num > 8){
+        if (this.appservice.HourWorked + num > 8) {
             alert("Non si possono inserire più di 8 ore lavorative giornaliere.");
             return;
         }
@@ -121,7 +121,11 @@ export class CardComponent {
 
                 if (result === 0) {
                     this.appservice.HourWorked += num;
-                    this.appservice.navigate("list/" + this.elementpage.Element);
+                    if (this.appservice.HourWorked == 8) {
+                        this.appservice.navigate("guest/login");
+                    } else {
+                        this.appservice.navigate("list/" + this.elementpage.Element);
+                    }
                 } else {
                     this.BlnMessage = true;
                     this.messageTxt = resultTxt;

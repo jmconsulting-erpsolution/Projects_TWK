@@ -13,7 +13,7 @@ import { LayoutService } from 'src/app/Layout/Layout.service';
   styleUrls: ['./login.component.scss']
 })
 export class LoginComponent implements AfterViewInit {
-  @ViewChild('badgeInput') badgeInput!: ElementRef<HTMLInputElement>; 
+  @ViewChild('badgeInput') badgeInput!: ElementRef<HTMLInputElement>;
   constructor(
     private layoutService: LayoutService,
     public appService: AppService
@@ -36,85 +36,91 @@ export class LoginComponent implements AfterViewInit {
   }
 
 
-@HostListener('document:click')
-onDocumentClick() {
-  this.focusInput();
-}
+  @HostListener('document:click')
+  onDocumentClick() {
+    this.focusInput();
+  }
 
-@HostListener('document:keydown.enter')
-onEnter() {
-  this.scanBadge();
-  this.focusInput();
-}
+  @HostListener('document:keydown.enter')
+  onEnter() {
+    this.scanBadge();
+    this.focusInput();
+  }
 
-onBadgeChange(value: string) {
-  this.badge = value.toUpperCase();
-}
+  onBadgeChange(value: string) {
+    this.badge = value.toUpperCase();
+  }
 
-//   callWS() {
-//     const soapXml = `
-// <?xml version="1.0" encoding="utf-8"?>
-// <soap:Envelope
-//   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
-//   xmlns="urn:microsoft-dynamics-schemas/codeunit/JM_Utility">
-//   <soap:Body>
-//     <CheckTotemResource>
-//       <_ResourceNo>R0070</_ResourceNo>
-//       <_Result>0</_Result>
-//       <_ResultTxt></_ResultTxt>
-//     </CheckTotemResource>
-//   </soap:Body>
-// </soap:Envelope>`;
+  //   callWS() {
+  //     const soapXml = `
+  // <?xml version="1.0" encoding="utf-8"?>
+  // <soap:Envelope
+  //   xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+  //   xmlns="urn:microsoft-dynamics-schemas/codeunit/JM_Utility">
+  //   <soap:Body>
+  //     <CheckTotemResource>
+  //       <_ResourceNo>R0070</_ResourceNo>
+  //       <_Result>0</_Result>
+  //       <_ResultTxt></_ResultTxt>
+  //     </CheckTotemResource>
+  //   </soap:Body>
+  // </soap:Envelope>`;
 
-//     this.callNavSoap('CheckTotemResource', soapXml)
-//       .then(responseXml => {
-//         console.log(responseXml);
-//       })
-//       .catch(err => {
-//         console.error(err);
-//       });
-//   }
+  //     this.callNavSoap('CheckTotemResource', soapXml)
+  //       .then(responseXml => {
+  //         console.log(responseXml);
+  //       })
+  //       .catch(err => {
+  //         console.error(err);
+  //       });
+  //   }
 
 
-scanBadge() {
-  // this.badge = 'R0070';
-  // this.appService.ResourceNo = this.badge;
-  // this.appService.navigate('list/commesse')
-  this.appService.isSoapWS = true;
-  this.appService.soapCodeunit = "JM_Utility";
-  this.appService.soapFunction = "CheckTotemResource";
-  this.layoutService.Auth('nav/checktotemresource', this.badge, this.result, this.resultTxt, 0, "").subscribe({
-    next: (response: any) => {
-      this.appService.setLoading(false);
+  scanBadge() {
+    // this.badge = 'R0070';
+    // this.appService.ResourceNo = this.badge;
+    // this.appService.navigate('list/commesse')
+    this.appService.isSoapWS = true;
+    this.appService.soapCodeunit = "JM_Utility";
+    this.appService.soapFunction = "CheckTotemResource";
+    this.layoutService.Auth('nav/checktotemresource', this.badge, this.result, this.resultTxt, 0, "").subscribe({
+      next: (response: any) => {
+        this.appService.setLoading(false);
 
-      const parser = new DOMParser();
-      const xml = parser.parseFromString(response, 'text/xml');
+        const parser = new DOMParser();
+        const xml = parser.parseFromString(response, 'text/xml');
 
-      const resultNode = xml.getElementsByTagName('_Result')[0];
-      const resultTxtNode = xml.getElementsByTagName('_ResultTxt')[0];
-      const hourWorkedNode = xml.getElementsByTagName('_HourWorked')[0];
-      const resourceNameNode = xml.getElementsByTagName('_ResourceName')[0];
+        const resultNode = xml.getElementsByTagName('_Result')[0];
+        const resultTxtNode = xml.getElementsByTagName('_ResultTxt')[0];
+        const hourWorkedNode = xml.getElementsByTagName('_HourWorked')[0];
+        const resourceNameNode = xml.getElementsByTagName('_ResourceName')[0];
 
-      const result = Number(resultNode?.textContent);
-      const resultTxt = resultTxtNode?.textContent;
-      const hourWorked = Number(hourWorkedNode?.textContent);
-      const resourceName = resourceNameNode?.textContent;
+        const result = Number(resultNode?.textContent);
+        const resultTxt = resultTxtNode?.textContent;
+        const hourWorked = Number(hourWorkedNode?.textContent);
+        const resourceName = resourceNameNode?.textContent;
 
-      if (result === 0) {
-        this.appService.HourWorked = hourWorked;
-        this.appService.resourceName = resourceName;
-        this.appService.ResourceNo = this.badge;
-        this.appService.navigate('list/commesse');
-      } else {
-        alert(resultTxt);
+        if (result === 0) {
+          if (hourWorked >= 8) {
+            this.badge = "";
+            alert("Limite orario giornaliero raggiunto. Accesso non consentito.");
+            return;
+          } else {
+            this.appService.HourWorked = hourWorked;
+            this.appService.resourceName = resourceName;
+            this.appService.ResourceNo = this.badge;
+            this.appService.navigate('list/commesse');
+          }
+        } else {
+          alert(resultTxt);
+        }
+      },
+      error: (err: any) => {
+        this.appService.setLoading(false);
+        let message = this.appService.getErrorMessage(err)
       }
-    },
-    error: (err: any) => {
-      this.appService.setLoading(false);
-      let message = this.appService.getErrorMessage(err)
-    }
-  })
-}
+    })
+  }
   // async callNavSoap(methodName: any, xmlBody: any) {
   //   const url = "http://tpnav18app.twinpack.local:7067/TWK_PRINT_DEV/WS/TWINPACK/Codeunit/JM_Utility";
   //   const basicAuth = 'Basic ' + 'VE9URU06T3NpcmlkZTIwMjYh';
