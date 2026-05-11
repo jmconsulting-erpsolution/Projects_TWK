@@ -7,7 +7,7 @@ modificando il file MSBuild. Per altre informazioni su questo argomento, vedere 
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <_PublishTargetUrl>C:\JM\GitHub\Projects_TWK\server_twk\WsNAVManager\bin\Release\Publish</_PublishTargetUrl>
-    <History>True|2026-04-15T15:49:34.9348288Z||;True|2026-04-14T09:18:20.9038356+02:00||;True|2026-04-13T16:10:26.4143520+02:00||;True|2026-04-13T16:09:51.5144474+02:00||;True|2026-02-04T16:41:40.4149063+01:00||;True|2026-02-04T16:15:17.2444454+01:00||;False|2026-02-04T16:11:59.9843862+01:00||;False|2026-02-04T16:08:09.8694680+01:00||;False|2026-02-04T16:06:49.3895526+01:00||;True|2026-02-04T15:25:41.0296733+01:00||;True|2024-02-21T18:40:41.0536431+01:00||;True|2024-02-21T17:37:31.4076441+01:00||;True|2024-02-21T15:51:13.3437643+01:00||;False|2024-02-21T15:37:31.9951130+01:00||;False|2024-02-21T15:35:24.7838505+01:00||;</History>
+    <History>True|2026-05-11T07:36:19.0568798Z||;True|2026-04-15T17:49:34.9348288+02:00||;True|2026-04-14T09:18:20.9038356+02:00||;True|2026-04-13T16:10:26.4143520+02:00||;True|2026-04-13T16:09:51.5144474+02:00||;True|2026-02-04T16:41:40.4149063+01:00||;True|2026-02-04T16:15:17.2444454+01:00||;False|2026-02-04T16:11:59.9843862+01:00||;False|2026-02-04T16:08:09.8694680+01:00||;False|2026-02-04T16:06:49.3895526+01:00||;True|2026-02-04T15:25:41.0296733+01:00||;True|2024-02-21T18:40:41.0536431+01:00||;True|2024-02-21T17:37:31.4076441+01:00||;True|2024-02-21T15:51:13.3437643+01:00||;False|2024-02-21T15:37:31.9951130+01:00||;False|2024-02-21T15:35:24.7838505+01:00||;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -87,10 +87,10 @@ modificando il file MSBuild. Per altre informazioni su questo argomento, vedere 
       <publishTime>04/09/2026 12:45:31</publishTime>
     </File>
     <File Include="bin/App_global.asax.compiled">
-      <publishTime>04/15/2026 17:50:56</publishTime>
+      <publishTime>05/11/2026 09:41:00</publishTime>
     </File>
     <File Include="bin/App_global.asax.dll">
-      <publishTime>04/15/2026 17:50:56</publishTime>
+      <publishTime>05/11/2026 09:41:00</publishTime>
     </File>
     <File Include="bin/BarcodeStandard.dll">
       <publishTime>02/20/2021 03:47:04</publishTime>
@@ -873,13 +873,13 @@ modificando il file MSBuild. Per altre informazioni su questo argomento, vedere 
       <publishTime>04/13/2026 15:54:50</publishTime>
     </File>
     <File Include="bin/WsNAVManager.dll">
-      <publishTime>04/15/2026 17:50:48</publishTime>
+      <publishTime>05/11/2026 09:40:49</publishTime>
     </File>
     <File Include="bin/WsNAVManager.pdb">
-      <publishTime>04/15/2026 17:50:48</publishTime>
+      <publishTime>05/11/2026 09:40:49</publishTime>
     </File>
     <File Include="bin/WsNAVManager.xml">
-      <publishTime>04/15/2026 17:50:47</publishTime>
+      <publishTime>05/11/2026 09:40:49</publishTime>
     </File>
     <File Include="bin/WsNAVManager.XmlSerializers.dll">
       <publishTime>03/18/2021 13:43:20</publishTime>
@@ -1014,7 +1014,7 @@ modificando il file MSBuild. Per altre informazioni su questo argomento, vedere 
       <publishTime>04/09/2026 12:45:32</publishTime>
     </File>
     <File Include="PrecompiledApp.config">
-      <publishTime>04/15/2026 17:50:49</publishTime>
+      <publishTime>05/11/2026 09:40:51</publishTime>
     </File>
     <File Include="Report/DataSetEtichetta.xsc">
       <publishTime>03/01/2021 15:59:10</publishTime>
@@ -1158,7 +1158,7 @@ modificando il file MSBuild. Per altre informazioni su questo argomento, vedere 
       <publishTime>02/04/2026 09:43:07</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>04/13/2026 16:10:04</publishTime>
+      <publishTime>04/23/2026 12:59:59</publishTime>
     </File>
     <File Include="x64/SqlServerSpatial160.dll">
       <publishTime>02/04/2026 09:43:18</publishTime>
