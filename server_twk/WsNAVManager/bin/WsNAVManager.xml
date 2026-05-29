@@ -531,6 +531,402 @@
             </param>
             <returns>OK se il web service risponde con successo</returns>
         </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.#ctor">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeConfStatusCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.GetNewConfStatusCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ResAvailabilityCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWSToStatusCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintItemLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintItemLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintShipLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintShipLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintRcptLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintRcptLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeConfStatus(System.Int32,System.Int32,System.String,System.Int32@)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeConfStatusAsync(System.Int32,System.Int32,System.String,System.Int32)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeConfStatusAsync(System.Int32,System.Int32,System.String,System.Int32,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.GetNewConfStatus(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.GetNewConfStatusAsync(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.GetNewConfStatusAsync(System.Int32,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ResAvailability(System.String,System.DateTime)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ResAvailabilityAsync(System.String,System.DateTime)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ResAvailabilityAsync(System.String,System.DateTime,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWS(System.Int32,System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWSAsync(System.Int32,System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWSAsync(System.Int32,System.Int32,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWSToStatus(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWSToStatusAsync(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.ChangeServiceReportWSToStatusAsync(System.Int32,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintItemLabelsWS(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintItemLabelsWS(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.DateTime,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.DateTime,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintShipLabelsWS(System.Int32,System.String,System.Int32,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintShipLabelsWSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintShipLabelsWSAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintShipLabelsWS(System.Int32,System.String,System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintShipLabelsWSAsync(System.Int32,System.String,System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintShipLabelsWSAsync(System.Int32,System.String,System.Int32,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintRcptLabelsWS(System.Int32,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintRcptLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CallPrintRcptLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintRcptLabelsWS(System.Int32,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintRcptLabelsWSAsync(System.Int32,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.PrintRcptLabelsWSAsync(System.Int32,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_DEV.ServiceReport.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeConfStatusCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeConfStatusCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeConfStatusCompletedEventArgs.errorWS">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.GetNewConfStatusCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ResAvailabilityCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ResAvailabilityCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_DEV.ResAvailabilityCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeServiceReportWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeServiceReportWSCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeServiceReportWSCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeServiceReportWSToStatusCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeServiceReportWSToStatusCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_DEV.ChangeServiceReportWSToStatusCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintItemLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintItemLabelsWSCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintItemLabelsWSCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.PrintItemLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintShipLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintShipLabelsWSCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintShipLabelsWSCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.PrintShipLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintRcptLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintRcptLabelsWSCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_DEV.CallPrintRcptLabelsWSCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_DEV.PrintRcptLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.#ctor">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeConfStatusCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.GetNewConfStatusCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ResAvailabilityCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWSToStatusCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintItemLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintItemLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintRcptLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="E:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintRcptLabelsWSCompleted">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeConfStatus(System.Int32,System.Int32,System.String,System.Int32@)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeConfStatusAsync(System.Int32,System.Int32,System.String,System.Int32)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeConfStatusAsync(System.Int32,System.Int32,System.String,System.Int32,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.GetNewConfStatus(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.GetNewConfStatusAsync(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.GetNewConfStatusAsync(System.Int32,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ResAvailability(System.String,System.DateTime)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ResAvailabilityAsync(System.String,System.DateTime)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ResAvailabilityAsync(System.String,System.DateTime,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWS(System.Int32,System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWSAsync(System.Int32,System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWSAsync(System.Int32,System.Int32,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWSToStatus(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWSToStatusAsync(System.Int32,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.ChangeServiceReportWSToStatusAsync(System.Int32,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintItemLabelsWS(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintItemLabelsWS(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.DateTime,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.DateTime,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintItemLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.DateTime,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintRcptLabelsWS(System.Int32,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintRcptLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CallPrintRcptLabelsWSAsync(System.Int32,System.String,System.String,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintRcptLabelsWS(System.Int32,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintRcptLabelsWSAsync(System.Int32,System.String,System.String)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.PrintRcptLabelsWSAsync(System.Int32,System.String,System.String,System.Object)">
+            <remarks/>
+        </member>
+        <member name="M:WsNAVManager.WebReferenceTWKSPA_PROD.ServiceReport.CancelAsync(System.Object)">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeConfStatusCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeConfStatusCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeConfStatusCompletedEventArgs.errorWS">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.GetNewConfStatusCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ResAvailabilityCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ResAvailabilityCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_PROD.ResAvailabilityCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeServiceReportWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeServiceReportWSCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeServiceReportWSCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeServiceReportWSToStatusCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeServiceReportWSToStatusCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_PROD.ChangeServiceReportWSToStatusCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.CallPrintItemLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.CallPrintItemLabelsWSCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_PROD.CallPrintItemLabelsWSCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.PrintItemLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.CallPrintRcptLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.CallPrintRcptLabelsWSCompletedEventArgs">
+            <remarks/>
+        </member>
+        <member name="P:WsNAVManager.WebReferenceTWKSPA_PROD.CallPrintRcptLabelsWSCompletedEventArgs.Result">
+            <remarks/>
+        </member>
+        <member name="T:WsNAVManager.WebReferenceTWKSPA_PROD.PrintRcptLabelsWSCompletedEventHandler">
+            <remarks/>
+        </member>
         <member name="T:WsNAVManager.WebReferenceTWK_DEV.ServiceReport">
             <remarks/>
         </member>

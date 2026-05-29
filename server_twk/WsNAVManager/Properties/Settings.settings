@@ -3,10 +3,16 @@
   <Profiles />
   <Settings>
     <Setting Name="WsNAVManager_WebReferenceTHN_DEV_THN_WS" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK/Codeunit/ServiceReport</Value>
+      <Value Profile="(Default)">http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK SPA/Codeunit/ServiceReport</Value>
     </Setting>
     <Setting Name="WsNAVManager_WebReferenceTHN_PROD_THN_WS" Type="(Web Service URL)" Scope="Application">
-      <Value Profile="(Default)">http://192.168.0.141:7047/TWINPACK/WS/TWINPACK/Codeunit/ServiceReport</Value>
+      <Value Profile="(Default)">http://192.168.0.141:7047/TWINPACK/WS/TWINPACK SPA/Codeunit/ServiceReport</Value>
+    </Setting>
+    <Setting Name="WsNAVManager_WebReferenceTWKSPA_PROD_ServiceReport" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.0.141:7047/TWINPACK/WS/TWINPACK%20SPA/Codeunit/ServiceReport</Value>
+    </Setting>
+    <Setting Name="WsNAVManager_WebReferenceTWKSPA_DEV_ServiceReport" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK%20SPA/Codeunit/ServiceReport</Value>
     </Setting>
   </Settings>
 </SettingsFile>

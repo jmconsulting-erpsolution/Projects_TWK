@@ -26,7 +26,7 @@ namespace WsNAVManager.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK/Codeunit/ServiceReport")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK SPA/Codeunit/ServiceReport")]
         public string WsNAVManager_WebReferenceTHN_DEV_THN_WS {
             get {
                 return ((string)(this["WsNAVManager_WebReferenceTHN_DEV_THN_WS"]));
@@ -36,10 +36,30 @@ namespace WsNAVManager.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.0.141:7047/TWINPACK/WS/TWINPACK/Codeunit/ServiceReport")]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.0.141:7047/TWINPACK/WS/TWINPACK SPA/Codeunit/ServiceReport")]
         public string WsNAVManager_WebReferenceTHN_PROD_THN_WS {
             get {
                 return ((string)(this["WsNAVManager_WebReferenceTHN_PROD_THN_WS"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.0.141:7047/TWINPACK/WS/TWINPACK%20SPA/Codeunit/ServiceReport")]
+        public string WsNAVManager_WebReferenceTWKSPA_PROD_ServiceReport {
+            get {
+                return ((string)(this["WsNAVManager_WebReferenceTWKSPA_PROD_ServiceReport"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK%20SPA/Codeunit/ServiceReport")]
+        public string WsNAVManager_WebReferenceTWKSPA_DEV_ServiceReport {
+            get {
+                return ((string)(this["WsNAVManager_WebReferenceTWKSPA_DEV_ServiceReport"]));
             }
         }
     }

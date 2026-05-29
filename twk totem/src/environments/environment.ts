@@ -11,15 +11,15 @@ export const environment = {
   serverUrl: "http://localhost:8080/",
   urlFolder: "",
   serverUrlApi: "/api/",
-  serverUrlApiOData: "/OData/Company('TWINPACK')/",
-  serverUrlApiSoap: "/WS/TWINPACK/Codeunit/",
+  serverUrlApiOData: "/OData/Company('TWINPACK SPA')/",
+  serverUrlApiSoap: "/WS/TWINPACK SPA/Codeunit/",
   clientUrlApp: "app/",
   clientPort: "",
   serverPortOData: ":7068/",
   serverPortSoap: ":7067/",
   redirecTo: "http://localhost:8080/",
   navAutorization: "VE9URU06T3NpcmlkZTIwMjYh",
-  company: "TWINPACK",
+  company: "TWINPACK SPA",
   key: "jmAdiutoNav2024",
   mock: false
 

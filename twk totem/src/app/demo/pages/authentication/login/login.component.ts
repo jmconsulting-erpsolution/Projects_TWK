@@ -79,7 +79,7 @@ export class LoginComponent implements AfterViewInit {
   scanBadge() {
     // this.badge = 'R0070';
     // this.appService.ResourceNo = this.badge;
-    // this.appService.navigate('list/commesse')
+    // this.appService.navigate('list/commesse');
     this.appService.isSoapWS = true;
     this.appService.soapCodeunit = "JM_Utility";
     this.appService.soapFunction = "CheckTotemResource";

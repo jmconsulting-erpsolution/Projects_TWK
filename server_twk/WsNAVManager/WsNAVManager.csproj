@@ -248,6 +248,16 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Web References\WebReferenceTWKSPA_DEV\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WebReferenceTWKSPA_PROD\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
     <Compile Include="Web References\WebReferenceTWK_DEV\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -360,6 +370,16 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Web References\WebReferenceTWKSPA_PROD\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <Content Include="Web References\WebReferenceTWKSPA_DEV\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </Content>
+    <None Include="Web References\WebReferenceTWKSPA_DEV\ServiceReport.wsdl" />
+    <None Include="Web References\WebReferenceTWKSPA_PROD\ServiceReport.wsdl" />
     <None Include="Web References\WebReferenceTWK_DEV\Reference.map">
       <Generator>MSDiscoCodeGenerator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
@@ -397,6 +417,28 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <WebReferenceUrl Include="http://192.168.0.141:7047/TWINPACK/WS/TWINPACK%2520SPA/Codeunit/ServiceReport">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReferenceTWKSPA_PROD\</RelPath>
+      <UpdateFromURL>http://192.168.0.141:7047/TWINPACK/WS/TWINPACK%2520SPA/Codeunit/ServiceReport</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WsNAVManager_WebReferenceTWKSPA_PROD_ServiceReport</CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK%2520SPA/Codeunit/ServiceReport">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\WebReferenceTWKSPA_DEV\</RelPath>
+      <UpdateFromURL>http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK%2520SPA/Codeunit/ServiceReport</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>WsNAVManager_WebReferenceTWKSPA_DEV_ServiceReport</CachedSettingsPropName>
+    </WebReferenceUrl>
     <WebReferenceUrl Include="http://192.168.0.141:7057/TWINPACK_DEV/WS/TWINPACK/Codeunit/ServiceReport">
       <UrlBehavior>Dynamic</UrlBehavior>
       <RelPath>Web References\WebReferenceTWK_DEV\</RelPath>

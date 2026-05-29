@@ -3,6 +3,7 @@ import { Component, Input, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavigationEnd, Router, RouterModule, Event } from '@angular/router';
 import { Title } from '@angular/platform-browser';
+import { environment } from 'src/environments/environment';
 
 // project import
 import { NavigationItem, NavigationItems } from 'src/app/theme/layout/admin/navigation/navigation';
@@ -44,11 +45,7 @@ export class BreadcrumbComponent {
   setBreadcrumb() {
     this.route.events.subscribe((router: Event) => {
       if (router instanceof NavigationEnd) {
-        const activeLink = router.url;
-        const breadcrumbList = this.filterNavigation(this.navigations, activeLink);
-        this.navigationList = breadcrumbList.splice(-2);
-        const title = breadcrumbList[breadcrumbList.length - 1]?.title || 'Welcome';
-        this.titleService.setTitle(title + ' | Berry Angular Admin Template');
+        this.titleService.setTitle(environment.company);
       }
     });
   }

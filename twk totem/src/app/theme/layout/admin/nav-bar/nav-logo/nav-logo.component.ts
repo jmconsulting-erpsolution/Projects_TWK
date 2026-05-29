@@ -27,7 +27,7 @@ export class NavLogoComponent {
   setLogo(path: string): string {
           let logo = "";
           switch (environment.company) {
-              case "TWINPACK":
+              case "TWINPACK SPA":
                   logo = path;
                   logo += "twinpack.png";
                   break;

@@ -120,14 +120,14 @@ namespace WsNAVManager.DAL
             string net_password = ConfigurationManager.AppSettings["WS_Password"];
             if (env == "TWK_DEV")
             {
-                WebReferenceTWK_DEV.ServiceReport ws = new WebReferenceTWK_DEV.ServiceReport();
+                WebReferenceTWKSPA_DEV.ServiceReport ws = new WebReferenceTWKSPA_DEV.ServiceReport();
                 ws.PreAuthenticate = true;
                 ws.Credentials = new NetworkCredential(net_user, net_password);
                 return ws.ChangeServiceReportWSToStatus(toStatus, reportHeaderNo);
             }
             if (env == "TWK_PROD")
             {
-                WebReferenceTWK_PROD.ServiceReport ws = new WebReferenceTWK_PROD.ServiceReport();
+                WebReferenceTWKSPA_PROD.ServiceReport ws = new WebReferenceTWKSPA_PROD.ServiceReport();
                 ws.PreAuthenticate = true;
                 ws.Credentials = new NetworkCredential(net_user, net_password);
                 return ws.ChangeServiceReportWSToStatus(toStatus, reportHeaderNo);
@@ -141,7 +141,7 @@ namespace WsNAVManager.DAL
             string env = ConfigurationManager.AppSettings["ENV_WS"];
             string totem_user = "";
             string totem_password = "";
-            if (company == "TWINPACK")
+            if (company == "TWINPACK SPA")
             {
                 totem_user = ConfigurationManager.AppSettings["TWK_Totem_User"];
                 totem_password = ConfigurationManager.AppSettings["TWK_Totem_Password"];
@@ -170,7 +170,7 @@ namespace WsNAVManager.DAL
             string env = ConfigurationManager.AppSettings["ENV_WS"];
             string totem_user = "";
             string totem_password = "";
-            if (company == "TWINPACK")
+            if (company == "TWINPACK SPA")
             {
                 totem_user = ConfigurationManager.AppSettings["TWK_Totem_User"];
                 totem_password = ConfigurationManager.AppSettings["TWK_Totem_Password"];
@@ -293,7 +293,7 @@ public class NavSoapClient
 
     public NavSoapClient(string username, string password, string company)
     {
-        if (company == "TWINPACK")
+        if (company == "TWINPACK SPA")
         {
             _serviceUrl =
             ConfigurationManager.AppSettings["TWK_Url"] +
@@ -349,7 +349,7 @@ public class NavODataClient
 
     public NavODataClient(string username, string password, string company)
     {
-        if (company == "TWINPACK")
+        if (company == "TWINPACK SPA")
         {
             _baseUrl =
             ConfigurationManager.AppSettings["TWK_Url"] +

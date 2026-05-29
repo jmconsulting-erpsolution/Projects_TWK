@@ -13,6 +13,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\controllers\\totemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\controllers\\totemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\controllers\\navcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\controllers\\navcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\properties\\settings.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\web references\\webreferencetwk_prod\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\web references\\webreferencetwk_prod\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\web references\\webreferencetwk_dev\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\web references\\webreferencetwk_dev\\reference.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|C:\\JM\\GitHub\\Projects_TWK\\server_twk\\wsnavmanager\\properties\\settings.settings||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DFDF52C2-22CE-4DB2-A716-E75C2A17BB0E}|WsNAVManager\\WsNAVManager.csproj|solutionrelative:wsnavmanager\\properties\\settings.settings||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +42,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NAVController.cs",
+              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\NAVController.cs",
+              "RelativeDocumentMoniker": "WsNAVManager\\Controllers\\NAVController.cs",
+              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\NAVController.cs",
+              "RelativeToolTip": "WsNAVManager\\Controllers\\NAVController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAYwE4AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:58:21.908Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web References\\WebReferenceTWK_PROD\\Reference.cs",
+              "RelativeDocumentMoniker": "WsNAVManager\\Web References\\WebReferenceTWK_PROD\\Reference.cs",
+              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web References\\WebReferenceTWK_PROD\\Reference.cs",
+              "RelativeToolTip": "WsNAVManager\\Web References\\WebReferenceTWK_PROD\\Reference.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAYwA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:02:16.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Settings.Designer.cs",
+              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Properties\\Settings.Designer.cs",
+              "RelativeDocumentMoniker": "WsNAVManager\\Properties\\Settings.Designer.cs",
+              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Properties\\Settings.Designer.cs",
+              "RelativeToolTip": "WsNAVManager\\Properties\\Settings.Designer.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwDsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:02:01.579Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -32,7 +88,7 @@
               "RelativeDocumentMoniker": "WsNAVManager\\Web.config",
               "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web.config",
               "RelativeToolTip": "WsNAVManager\\Web.config",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwB0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAEwCYAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2026-04-13T14:09:37.561Z",
               "EditorCaption": ""
@@ -45,7 +101,7 @@
               "RelativeDocumentMoniker": "WsNAVManager\\DAL\\WebAccessLayer.cs",
               "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\DAL\\WebAccessLayer.cs",
               "RelativeToolTip": "WsNAVManager\\DAL\\WebAccessLayer.cs",
-              "ViewState": "AgIAADIBAAAAAAAAAAAqwDwBAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAHQBAAAAAAAAAAAIwH0BAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T14:02:07.042Z",
               "EditorCaption": ""
@@ -58,10 +114,34 @@
               "RelativeDocumentMoniker": "WsNAVManager\\Controllers\\TOTEMController.cs",
               "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Controllers\\TOTEMController.cs",
               "RelativeToolTip": "WsNAVManager\\Controllers\\TOTEMController.cs",
-              "ViewState": "AgIAADoAAAAAAAAAAAAqwEEAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAIwB0AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-13T14:01:39.421Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Reference.cs",
+              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web References\\WebReferenceTWK_DEV\\Reference.cs",
+              "RelativeDocumentMoniker": "WsNAVManager\\Web References\\WebReferenceTWK_DEV\\Reference.cs",
+              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Web References\\WebReferenceTWK_DEV\\Reference.cs",
+              "RelativeToolTip": "WsNAVManager\\Web References\\WebReferenceTWK_DEV\\Reference.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAswA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-29T09:02:13.656Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Settings.settings",
+              "DocumentMoniker": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Properties\\Settings.settings",
+              "RelativeDocumentMoniker": "WsNAVManager\\Properties\\Settings.settings",
+              "ToolTip": "C:\\JM\\GitHub\\Projects_TWK\\server_twk\\WsNAVManager\\Properties\\Settings.settings",
+              "RelativeToolTip": "WsNAVManager\\Properties\\Settings.settings",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002767|",
+              "WhenOpened": "2026-05-29T09:02:08.02Z"
             }
           ]
         }

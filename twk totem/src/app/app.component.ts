@@ -25,8 +25,7 @@ export class AppComponent {
 
   ngOnInit(): void {
 
-    const company =
-      this.capitalizeFirstLetter(environment.company);
+    const company =  environment.company;
 
     this.title.setTitle(company);
     this.setFavicon(this.setFromCompany('./assets/images/'));
@@ -53,7 +52,7 @@ export class AppComponent {
   setFromCompany(path: string): string {
     let logo = "";
     switch (environment.company) {
-      case "TWINPACK":
+      case "TWINPACK SPA":
         logo = path;
         logo += "twinpack.ico";
         break;

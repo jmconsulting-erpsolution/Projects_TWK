@@ -3,43 +3,43 @@ import packageInfo from '../../package.json';
 export const environment = {
 
   //TWK DEV
-  appVersion: packageInfo.version,
-  production: true,
-  clientUrl: "http://192.168.0.141",
-  serverUrl: "http://192.168.0.141",
-  urlFolder: "NAVWS_DEV/publish",
-  serverUrlApi: "/api/",
-  serverUrlApiOData: "/OData/Company('TWINPACK')/",
-  serverUrlApiSoap: "/WS/TWINPACK/Codeunit/",
-  clientUrlApp: "app/",
-  clientPort: "",
-  serverPortOData: ":7068/",
-  serverPortSoap: ":7067/",
-  redirecTo: "http://tpnav18app.twinpack.local/",
-  navAutorization: "VE9URU06T3NpcmlkZTIwMjYh",
-  company: "TWINPACK",
-  key: "jmAdiutoNav2024",
-  mock: false
-
-
-  //TWK PROD
   // appVersion: packageInfo.version,
   // production: true,
   // clientUrl: "http://192.168.0.141",
   // serverUrl: "http://192.168.0.141",
-  // urlFolder: "NAVWS/publish",
+  // urlFolder: "NAVWS_DEV/publish",
   // serverUrlApi: "/api/",
-  // serverUrlApiOData: "/OData/Company('TWINPACK')/",
-  // serverUrlApiSoap: "/WS/TWINPACK/Codeunit/",
+  // serverUrlApiOData: "/OData/Company('TWINPACK SPA')/",
+  // serverUrlApiSoap: "/WS/TWINPACK SPA/Codeunit/",
   // clientUrlApp: "app/",
   // clientPort: "",
   // serverPortOData: ":7068/",
   // serverPortSoap: ":7067/",
   // redirecTo: "http://tpnav18app.twinpack.local/",
   // navAutorization: "VE9URU06T3NpcmlkZTIwMjYh",
-  // company: "TWINPACK",
+  // company: "TWINPACK SPA",
   // key: "jmAdiutoNav2024",
   // mock: false
+
+
+  //TWK PROD
+  appVersion: packageInfo.version,
+  production: true,
+  clientUrl: "http://192.168.0.141",
+  serverUrl: "http://192.168.0.141",
+  urlFolder: "NAVWS/publish",
+  serverUrlApi: "/api/",
+  serverUrlApiOData: "/OData/Company('TWINPACK SPA')/",
+  serverUrlApiSoap: "/WS/TWINPACK SPA/Codeunit/",
+  clientUrlApp: "app/",
+  clientPort: "",
+  serverPortOData: ":7068/",
+  serverPortSoap: ":7067/",
+  redirecTo: "http://tpnav18app.twinpack.local/",
+  navAutorization: "VE9URU06T3NpcmlkZTIwMjYh",
+  company: "TWINPACK SPA",
+  key: "jmAdiutoNav2024",
+  mock: false
 
 
 //TWN DEV

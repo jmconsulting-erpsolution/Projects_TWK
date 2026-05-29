@@ -263,7 +263,7 @@ export class AppService {
     setLogo(path: string): string {
         let logo = "";
         switch (environment.company) {
-            case "TWINPACK":
+            case "TWINPACK SPA":
                 logo = path;
                 logo += "twinpack.png";
                 break;
@@ -280,7 +280,7 @@ export class AppService {
 
     getCompanyColor(): string {
         switch (environment.company) {
-            case 'TWINPACK': return '#0d6efd'; // blu
+            case 'TWINPACK SPA': return '#0d6efd'; // blu
             case 'TWINOVA': return '#dc3545'; // rosso
             default: return '#0d6efd';
         }
@@ -288,7 +288,7 @@ export class AppService {
 
     getCompanyFilter(): string {
         switch (environment.company) {
-            case 'TWINPACK': return 'invert(32%) sepia(85%) saturate(2300%) hue-rotate(210deg) brightness(95%) contrast(100%)';
+            case 'TWINPACK SPA': return 'invert(32%) sepia(85%) saturate(2300%) hue-rotate(210deg) brightness(95%) contrast(100%)';
             case 'TWINOVA': return 'invert(29%) sepia(89%) saturate(630%) hue-rotate(340deg) brightness(90%) contrast(95%)'; // rosso
             default: return 'invert(32%) sepia(85%) saturate(2300%) hue-rotate(210deg) brightness(95%) contrast(100%)';
         }
